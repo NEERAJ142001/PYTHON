@@ -28,7 +28,7 @@ flag = True
 
 def calci():
     # taking input from user
-    number1 = int(input("Enter the first number \n"))
+    number1 = float(input("Enter the first number \n"))
 
     # printing operators on the screen
     for keys in calculator:
@@ -38,7 +38,7 @@ def calci():
         # taking operator and next number
 
         operator_symbol = input("pick an operator \n")
-        number2 = int(input("Enter the number \n"))
+        number2 = float(input("Enter the number \n"))
 
         calculation_symbol = calculator[operator_symbol]
 
